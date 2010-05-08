@@ -1,0 +1,4 @@
+Entity has One-to-many to itself.
+
+addToChildren() behaves differently depending on whether the same
+test is executed in an integration or unit test enivronment.

@@ -11,7 +11,7 @@ class EntityTests extends GrailsUnitTestCase {
         super.tearDown()
     }
 
-    void testAddToOwned() {
+    void testAddToChildren() {
     	def parent = new Entity()
     	def success = parent.save()
     	assertNotNull(success)
