@@ -1,3 +1,5 @@
+http://jira.codehaus.org/browse/GRAILS-6238
+
 Entity has One-to-many to itself.
 
 addToChildren() behaves differently depending on whether the same
